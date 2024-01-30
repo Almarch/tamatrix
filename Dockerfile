@@ -1,4 +1,7 @@
 FROM ubuntu
+
+ENV DEBIAN_FRONTEND noninteractive
+
 MAINTAINER Greyson Parrelli <greyson.parrelli@gmail.com>
 
 # Install required packages
